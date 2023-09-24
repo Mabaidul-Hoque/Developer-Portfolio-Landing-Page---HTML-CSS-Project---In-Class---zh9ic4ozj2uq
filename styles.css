@@ -24,7 +24,7 @@
   left: 10%;
   right: 10%;
   text-align: center;
-  color: rgb(212, 130, 29);
+  color: white;
   font-weight: 400;
 }
 .black-box{
@@ -43,13 +43,13 @@
 }
 
 /* card-container  */
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   width: 80%;
   margin: auto;
   margin-bottom: 50px;
-  
 }
 .grid-item {
   max-width: 340px;
@@ -77,18 +77,16 @@
 }
 
 /* bottom section  */
+
 .bottom-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin: 0px 50px; */
 }
-
 .contact-me {
   background-color: rgb(94, 153, 35);
   color: white;
   width: 600px;
-  /* max-width: 500px; */
   height: 150px;
   padding: 20px;
 }
@@ -107,6 +105,8 @@
   font-size: 30px;
   padding-bottom: 10px;
 }
+
+/* media queries for <= 786px  */
 
 @media (max-width: 786px){
   .hero-section{
@@ -135,8 +135,6 @@
   }
   .about-me, .contact-me {
     width: 100%;
-  }
-  
+  } 
 }
-
 
